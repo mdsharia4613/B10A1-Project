@@ -65,6 +65,12 @@ header{
     text-decoration: none;
     color: rgb(255,255,255) ;
 }
+.btn-style:hover{
+    background-color: rgb(238, 232, 226);
+}
+.btn-style a:hover{
+    color: rgba(13,19,33,0.7);
+}
 
 main{
     width: 1140px;
@@ -123,7 +129,9 @@ main{
     align-items: center;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-   
+    gap: 50px;
+    padding: 48px;
+    margin: 32px 0px;
 }
 
 .section-2-h1{
@@ -137,6 +145,10 @@ main{
     padding: 12px 20px 12px 20px;
     box-sizing: border-box;
     border: 1px solid rgb(13,19,33);
+}
+
+.learn-more-btn:hover{
+   background-color: rgb(230, 207, 176);
 }
 
 
