@@ -74,7 +74,7 @@ header{
 
 main{
     width: 1140px;
-    height: 1393px;
+    height: 1250px;
     border: 2px solid blue;
     position: absolute;
     left: 148px;
@@ -129,9 +129,8 @@ main{
     align-items: center;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    gap: 50px;
     padding: 48px;
-    margin: 32px 0px;
+    margin: 40px 0px;
 }
 
 .section-2-h1{
@@ -151,4 +150,19 @@ main{
    background-color: rgb(230, 207, 176);
 }
 
+/* section-3 */
 
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.section-3 h1{
+    color: rgb(13,19,33);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 37px;
+}
