@@ -228,12 +228,12 @@ main{
     align-items: center;
     gap: 10px;
     height: 220px;
-    padding: 40px;
-    margin: 0px 24px;
+    padding: 40px; 
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+    margin-top: 20px;
 }
 
 .card-Container img{
@@ -256,3 +256,20 @@ main{
     font-weight: 800;
     line-height: 36px;
  }
+
+ /* Last Section */
+    .last-section{
+        background-image: url(../assets/handshake.jpg);
+        background-position: center;
+        height: 314px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 64px 48px 64px 48px;
+        border-radius: 16px;
+        background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+
+    }
