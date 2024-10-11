@@ -149,7 +149,7 @@ main{
    background-color: rgb(230, 207, 176);
 }
 
-/* section-3 */
+/*  My Inspiration section-3 */
 
 .section-3{
     display: flex;
@@ -166,7 +166,7 @@ main{
     line-height: 37px;
 }
 
-/* My Current Target */
+/* My Current Target section-4 */
 .section-4{
     display: flex;
     flex-direction: column;
@@ -180,4 +180,45 @@ main{
     font-size:40px;
     font-weight: 800;
     line-height: 37px;
+}
+
+/* Section-5 Card */
+
+.card-Containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.card-Container{
+    width: 364px;
+    height: auto;
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-bottom: 60px;
+}
+.card-Container a{
+    width: 284px;
+    height: 19px;
+    color: rgb(13,19,33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+/* My Next Target */
+
+.target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(13,19,33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 37px;
+
 }
