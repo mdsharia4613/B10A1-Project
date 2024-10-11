@@ -311,3 +311,23 @@ main{
         text-align: center;
         box-sizing: border-box;
     }    
+
+    /* footer section */
+    .footer-section{
+        background-color: cadetblue;
+        height: 330px;
+        width: auto;
+        border: 2px solid tomato;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-section-img{
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .footer-section-img .container{
+        gap: 50;
+    }
